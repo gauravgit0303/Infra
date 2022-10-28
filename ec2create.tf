@@ -30,6 +30,6 @@ resource "aws_instance" "myec2" {
   instance_type = var.instance_type
   subnet_id     = aws_subnet.mysubnet.id
   tags = {
-    Name = "HelloWorld1"
+    Name = "HelloWorld2"
   }
 }
